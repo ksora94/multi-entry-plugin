@@ -30,7 +30,7 @@ function getMultiEntry(entry) {
   });
 }
 
-export default class MultiEntryPlugin {
+class MultiEntryPlugin {
   constructor(option = {}) {
     this.mainEntry = option.mainEntry || 'main';
   }
@@ -70,4 +70,6 @@ export default class MultiEntryPlugin {
     })
   }
 }
+
+module.exports = MultiEntryPlugin;
 
