@@ -1,0 +1,26 @@
+{
+  "name": "multi-entry-plugin",
+  "version": "0.0.1",
+  "description": "set webpack multiple entry by single entry.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSOra/multi-entry-plugin.git"
+  },
+  "keywords": [
+    "webapck",
+    "entry",
+    "plugin"
+  ],
+  "dependencies": {
+    "globby": "^9.2.0",
+    "lodash": "^4.17.11",
+    "webpack": "^4.32.0"
+  },
+  "author": "ksora@live.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KSOra/multi-entry-plugin/issues"
+  },
+  "homepage": "https://github.com/KSOra/multi-entry-plugin#readme"
+}
