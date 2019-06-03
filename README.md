@@ -29,7 +29,8 @@ webpack.config.js:
       plugins: [
             new MultiEntryPlugin({
               // plugin will depend the directory of 'mainEntry' to set multiple entry.
-              mainEntry: 'app' 
+              mainEntry: 'app',
+              exclude: ['util/**/*.js']
             })
         ]
     }
