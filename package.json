@@ -15,6 +15,7 @@
   "dependencies": {
     "globby": "^9.2.0",
     "lodash": "^4.17.11",
+    "minimatch": "^3.0.4",
     "webpack": "^4.32.0"
   },
   "author": "ksora@live.com",
